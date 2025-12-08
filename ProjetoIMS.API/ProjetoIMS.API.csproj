@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
@@ -8,6 +8,12 @@
 
   <ItemGroup>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ProjetoIMS.Application\ProjetoIMS.Application.csproj" />
+    <ProjectReference Include="..\ProjetoIMS.Domain\ProjetoIMS.Domain.csproj" />
+    <ProjectReference Include="..\ProjetoIMS.Infrastructure\ProjetoIMS.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
