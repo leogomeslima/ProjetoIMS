@@ -1,4 +1,5 @@
 ﻿using ProjetoIMS.Domain.Entities;
+using ProjetoIMS.Domain.Specifications;
 
 namespace ProjetoIMS.Domain.Interfaces
 {
