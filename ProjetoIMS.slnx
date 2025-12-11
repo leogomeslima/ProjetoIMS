@@ -3,4 +3,5 @@
   <Project Path="ProjetoIMS.Application/ProjetoIMS.Application.csproj" />
   <Project Path="ProjetoIMS.Domain/ProjetoIMS.Domain.csproj" />
   <Project Path="ProjetoIMS.Infrastructure/ProjetoIMS.Infrastructure.csproj" />
+  <Project Path="ProjetoIMS.Tests/ProjetoIMS.Tests.csproj" />
 </Solution>
